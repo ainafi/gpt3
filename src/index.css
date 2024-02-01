@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "manrope";
+    src: url("./assets/fonts/Manrope-VariableFont_wght.ttf");
+}
+.text-gradient{
+    background: linear-gradient(47deg, #ae67fa 0%, #f49867 62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.paragraph{
+    color: #34a9bb;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+
+.bar-gradient{
+    background: linear-gradient(47deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 62%);
+    
+}
+.bg-gradient{
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+p{
+        color: white;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    
+}
